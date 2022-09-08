@@ -14,20 +14,7 @@ function Trailer({ newMovie, match }) {
     let previousMovie = newMovie[previousMovieIndex];
     let navigate = useNavigate();
 
-    // const handleNextRoute = () => {
-    //     if (nextMovieIndex < newMovie.length) {
-    //         navigate.push(`/movies/${nextMovie.id}`);
-    //     } else {
-    //         navigate.push(`/movies`);
-    //     }
-    // };
-    // const handlePreviousRoute = () => {
-    //     if (previousMovieIndex >= 0) {
-    //         navigate.push(`/movies/${previousMovie.id}`);
-    //     } else {
-    //        navigate.push(`/movies`);
-    //     }
-    // };
+   
 
     return (
         console.log(useParams()),
